@@ -1,0 +1,110 @@
+$text-color-primary: #292f39;
+$text-color-secodary: #19b9f3;
+$text-color-white: #ffff;
+
+h1,p,h3 {
+    color: $text-color-primary;
+}
+
+// *,
+body {
+    
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: darkgrey;
+}
+
+
+* {
+    // border: 1px solid red;
+}
+
+.container {
+    max-width: 1100px;
+    // border: 1px solid red;
+    background-color: #fff;
+}
+
+.header {
+    h1{
+        font-size: 45px;
+        font-weight: 500;
+    }
+    h2 {
+        font-size: 30px;
+        color: $text-color-secodary;
+    }
+}
+
+
+.sidebar-right {
+    background-color:$text-color-primary;
+    color: $text-color-white;
+    text-align: justify;
+
+    h3.title-sidebar {
+        color: #fff;
+    }
+
+    .sd-info , .sd-profile {
+        margin-bottom: 30px;
+    }
+    .sd-info {
+        color: $text-color-secodary;
+        ul{
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+
+    .sd-profile {
+        // border: 1px solid red;
+        p{
+            color: $text-color-white;
+        }
+    }
+
+    .sd-skills {
+        ul {
+            // border: 1px solid red;
+            // margin-bottom: 100px;
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+            li{
+                margin-bottom: 10px;
+            }
+            li span {
+                color: $text-color-secodary;
+                font-weight: bold;
+            }
+        }
+    }
+
+}
+
+
+.education-history,
+.employment-history {
+    .title-history {
+        margin-bottom: 20px;
+    }
+    div p {
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .timelapse {
+        span:first-child {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        span:last-child {
+            font-size: 13px;
+        }
+    }
+}
+
+
+
+

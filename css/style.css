@@ -1,0 +1,89 @@
+h1, p, h3 {
+  color: #292f39;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: darkgrey;
+}
+
+.container {
+  max-width: 1100px;
+  background-color: #fff;
+}
+
+.header h1 {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.header h2 {
+  font-size: 30px;
+  color: #19b9f3;
+}
+
+.sidebar-right {
+  background-color: #292f39;
+  color: #ffff;
+  text-align: justify;
+}
+
+.sidebar-right h3.title-sidebar {
+  color: #fff;
+}
+
+.sidebar-right .sd-info, .sidebar-right .sd-profile {
+  margin-bottom: 30px;
+}
+
+.sidebar-right .sd-info {
+  color: #19b9f3;
+}
+
+.sidebar-right .sd-info ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.sidebar-right .sd-profile p {
+  color: #ffff;
+}
+
+.sidebar-right .sd-skills ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.sidebar-right .sd-skills ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar-right .sd-skills ul li span {
+  color: #19b9f3;
+  font-weight: bold;
+}
+
+.education-history .title-history,
+.employment-history .title-history {
+  margin-bottom: 20px;
+}
+
+.education-history div p,
+.employment-history div p {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.education-history .timelapse span:first-child,
+.employment-history .timelapse span:first-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.education-history .timelapse span:last-child,
+.employment-history .timelapse span:last-child {
+  font-size: 13px;
+}
+/*# sourceMappingURL=style.css.map */
